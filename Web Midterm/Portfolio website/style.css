@@ -1,0 +1,173 @@
+ @import url(https://fonts.googleapis.com/css?family=Raleway:300,700);
+
+ body{
+ 	font-family: "Raleway";
+ 	font-weight: lighter;
+ 	font-size: .9em;
+ 	align-content: center;
+ 	padding-right: 18vw;
+ 	padding-left: 18vw;
+ 	color: rgba(153,153,153,1);
+ 	letter-spacing: .05em;
+ 	line-height: 1.6em;
+}
+
+#logo{
+	align-content: left;
+	max-width:360px;
+	padding-top: 1.5em;
+}
+
+/*padding between links*/
+.navlinks{
+	padding-right: 1.2em;
+	text-decoration: none;
+	color: rgba(153,153,153,1);
+}
+
+
+a{
+	color: rgba(153,153,153,1);
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+nav{
+	float: right;
+	padding-top: 3em;
+}
+
+ ul{
+ 	list-style-type: none;
+ 	text-decoration: none;
+ }
+
+ ul li{
+ 	display: inline-block;
+ 	letter-spacing: 3px;
+ 	padding-left: 2em;
+ }
+
+h1{
+	color: rgba(153,153,153,1);
+	letter-spacing: .2em;
+	font-size: 1.2em;
+	padding-top: 1em;
+	font-weight: lighter;
+	padding-left: 2.5em;
+}
+
+h2{
+	color: rgba(255,156,147,1);
+	letter-spacing: .2em;
+	font-size: 1.1em;
+	padding-top: 1em;
+	font-weight: lighter;
+	padding-left: 2.5em;
+}
+
+
+#active{
+	color: rgba(148,218,224,1);
+}
+
+a:hover{
+    color: rgba(255,156,147,1);
+    text-decoration: none;
+}
+
+hr{
+	max-width: 1300px 80%;
+	align-content: center;
+	left: 50px;
+    border: 0;
+    height: .5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+}
+
+/*line style from https://css-tricks.com/examples/hrs/*/
+
+.projects{
+	padding-top: 1.2em;
+	padding-right: 1.2em;
+	padding-bottom: 1.2em;
+	max-width: 17em;
+}
+
+.projects:over{
+	   display: block;
+}
+
+/*ABOUT PAGE*/
+
+#whiteboard{
+	padding-left: 2em;
+	padding-top: 3em;
+	max-width: 400px;
+}
+
+#aboutme{
+	font-size: 0.8em;
+	letter-spacing: .1em;
+	float: right;
+	width: 40%;
+	padding-top: 8em;
+	padding-left: 2em;
+	color: rgba(153,153,153,1);
+	line-height: 1.6em;
+}
+
+/*RESUME PAGE*/
+
+#myresume{
+	align-content: center;
+	width:800px;
+}
+
+/*GILT PAGE*/
+
+#gilthero{
+	max-width: 730px;
+	align-content: center;
+	padding-left: 3em;
+}
+
+#teammembers{
+	 color: rgba(255,156,147,1);
+}
+/*#line2{
+	padding-top: 400px;
+}*/
+
+#teambio{
+	max-width: 45%;
+	float: left;
+}
+
+p{padding-left: 2.5em;
+}
+
+#teampic{
+	max-width: 350px;
+	float: right;
+	padding-right: 2em;
+}
+
+#theproblem{
+	padding-top: 270px;
+}
+
+.imgrescales{
+	max-width: 750px;
+	padding-left: 3em;
+}
+
+#its{
+	padding-top:1em;
+}
+
+#giltiphone{
+	padding-left: 250px;
+	max-width: 320px;
+	margin-left: auto;
+	margin-right: auto;}

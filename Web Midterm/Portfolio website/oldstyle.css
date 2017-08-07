@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+ body{
+ 	font-family: "Raleway";
+ 	font-size: 1em;
+ 	padding-left: 1em;
+ 	padding-right: 1em;
+}
+
+.navlinks{
+	padding-right: 1.2em;
+}
+
+nav{
+	float: right;
+	padding-top: -5em;
+	position: relative;
+	list-style-type: none;
+ 	text-decoration: none;
+ 	display: inline-block;
+}
+/*	letter-spacing: 5px;
+	float: right;
+	position: relative;
+	top: -4em;
+	padding-right: 10em;
+}*/
+
+#line{
+	padding-top: -5em;
+	max-width: 1300px 80%;
+	align-content: center;
+	left: 50px;
+    border: 0;
+    height: .5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+}
+
+/*line style from https://css-tricks.com/examples/hrs/*/
+
+
+
+/*All of the projects as a whole*/
+
+.projects{
+	padding-left: 2em;
+	padding-bottom: 1em;
+	max-width: 270px ;
+	display:inline-block;
+}
+
+/*Individual images*/
+
+.images{
+	margin: auto;
+    padding: 10px;
+	display:inline-block;
+	padding-left: 8em;
+}
+
+/*.navlinks:hover{
+	font-size: 13px;
+}
+*/
+
+a:hover{
+    color: pink;
+    text-decoration: none;
+}
+
+a{
+	color: rgba(153,153,153,1);
+    text-decoration: none;
+    display: inline-block;
+    text-align: right;
+    letter-spacing: 2px;
+}
+
+
+#active{
+	color: rgba(148,218,224,1);
+}
+
+
+ ul li{
+ 	list-style-type: none;
+ 	text-decoration: none;
+ 	display: inline-block;
+ }
+
+ li{
+ 	padding-right:20px;
+ }
+
+#logo{
+	align-content: left;
+	max-width:360px;
+	padding-top: 1.5em;
+	padding-left: 10em;
+	padding-bottom: -1em;
+}
+
+/*p{
+	float: right;padding-top: 80px;
+	color:dimgray;
+	text-align: center;
+	width: 60%;
+}*/
+
+/*<!-- Media Queries -->*/
+/*Cellphone*/
+@media screen and (min-width:500px) and (min-device-width:500px){
+	section .projects{
+		width: calc(80vw/2);
+		height: calc(80vw/2);
+	}
+
+section #logo{
+	min-width:200px ;
+	align-content: left;
+}
+		section .navlinks{
+		width: calc(80vw/2);
+		height: calc(80vw/2);
+	}
+/*Tablet*/
+@media screen and (min-width:780px) and (min-device-width:500px){
+	section .projects{
+		width: calc(80vw/3);
+		height: calc(80vw/3);
+}
+		section p{
+		width: calc(80vw/3);
+}
+
+section .navlinks{
+		width: calc(80vw/2);
+		height: calc(80vw/2);
+	}
+/*Desktop*/
+@media screen and (min-width:1050px){
+	section .projects{
+		width: calc(80vw/4);
+		height: calc(80vw/4);
+}
+
+section .navlinks{
+		width: calc(80vw/2);
+		height: calc(80vw/2);
+	}
+
+
+/*For mobile devices*/
+@media screen and (max-width:500px) and (orientation:portrait){
+}
+
